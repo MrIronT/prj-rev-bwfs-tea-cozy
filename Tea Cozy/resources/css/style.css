@@ -1,0 +1,136 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    align-items: center;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav a {
+    color: seashell;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.mission-image {
+    display: flex;
+    background-image: url(/resources/img/img-mission-background.jpg);
+    padding-top: 70px;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.tea-type img {
+    width: 300px;
+    padding: 10px 15px;
+}
+
+.tea-types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/resources/img/img-locations-background.jpg);
+    height: 500px;
+    justify-content: center;
+}
+
+.locations-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+h5 {
+   padding: 10px 0; 
+}
+
+.cotact-details {
+    height: 200px;
+    align-items: center;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+}
